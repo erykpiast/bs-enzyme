@@ -1,11 +1,24 @@
-# Changelog
+# Change Log
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+# [1.0.0](https://github.com/rpowelll/bs-enzyme/compare/v0.6.1...v1.0.0) (2019-03-16)
 
-## [Unreleased]
+
+### Features
+
+* **build:** add standard-version release system ([ff38b57](https://github.com/rpowelll/bs-enzyme/commit/ff38b57))
+* **build:** change build target to ES6 modules ([96384c6](https://github.com/rpowelll/bs-enzyme/commit/96384c6))
+* **build:** compile Reason automatically before running tests ([68513ef](https://github.com/rpowelll/bs-enzyme/commit/68513ef))
+* **deps:** add package lock file ([14841ff](https://github.com/rpowelll/bs-enzyme/commit/14841ff))
+* **deps:** use exact versions of dependencies ([2fc885f](https://github.com/rpowelll/bs-enzyme/commit/2fc885f))
+
+
+### BREAKING CHANGES
+
+* **build:** As output JavaScript has  ES6 module format now, supporting ES5 targets requires additional transpilation.
+
+
 
 ## [0.6.1][0.6.1] 2019-02-01
 
